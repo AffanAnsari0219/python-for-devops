@@ -1,4 +1,4 @@
-import requests
+import requests  # type: ignore
 import json
 
 API_KEY = "TCBY95O2XXPWFAQ1"
@@ -34,7 +34,6 @@ def get_stock_market_data(api_symbol):
                 print()
                 break
 
-    # Save processed data to a JSON file
     file_name = f"{api_symbol}_stock_data.json"
     with open(file_name, "w") as json_file:
         json.dump(processed_data, json_file, indent=4)

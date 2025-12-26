@@ -1,0 +1,4 @@
+Log Summary
+INFO: 5
+WARNING: 2
+ERROR: 2

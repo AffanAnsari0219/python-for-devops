@@ -1,0 +1,9 @@
+INFO Application started
+INFO User logged in
+WARNING Disk space is low
+INFO Processing request
+ERROR Database connection failed
+WARNING High memory usage detected
+INFO Request completed
+ERROR Timeout while calling service
+INFO Application stopped
